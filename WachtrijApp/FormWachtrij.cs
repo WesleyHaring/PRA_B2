@@ -98,6 +98,42 @@ namespace WachtrijApp
             Wachttijd += 5;
 
             return Wachttijd;
+
+             string node09 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor09").InnerText;
+            if (node08 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 5;
+
+            return Wachttijd;
+
+            string node10 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor10").InnerText;
+            if (node08 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 5;
+
+            return Wachttijd;
+
+            string node11 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor11").InnerText;
+            if (node08 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 5;
+
+            return Wachttijd;
+
+           string node12 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor12").InnerText;
+            if (node08 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 5;
+
+            return Wachttijd;
         }
 
         private void VerwerkAttractieStatusData()
