@@ -46,56 +46,56 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 6;
+            Wachttijd += 10;
 
             string node02 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor02").InnerText;
             if (node02 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 6;
+            Wachttijd += 5;
 
             string node03 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor03").InnerText;
             if (node03 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             string node04 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor04").InnerText;
             if (node04 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             string node05 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor05").InnerText;
             if (node05 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             string node06 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor06").InnerText;
             if (node06 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             string node07 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor07").InnerText;
             if (node07 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             string node08 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor08").InnerText;
             if (node08 == "False")
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             return Wachttijd;
 
@@ -104,7 +104,7 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             return Wachttijd;
 
@@ -113,7 +113,7 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             return Wachttijd;
 
@@ -122,7 +122,7 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             return Wachttijd;
 
@@ -131,7 +131,7 @@ namespace WachtrijApp
             {
                 return Wachttijd;
             }
-            Wachttijd += 4;
+            Wachttijd += 5;
 
             return Wachttijd;
         }
