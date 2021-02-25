@@ -43,7 +43,7 @@ namespace WachtrijApp
             // labelTitel
             // 
             this.labelTitel.AutoSize = true;
-            this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitel.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitel.Location = new System.Drawing.Point(35, 22);
             this.labelTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitel.Name = "labelTitel";
@@ -55,7 +55,7 @@ namespace WachtrijApp
             // labelWachttijd
             // 
             this.labelWachttijd.AutoSize = true;
-            this.labelWachttijd.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijd.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijd.Location = new System.Drawing.Point(36, 183);
             this.labelWachttijd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijd.Name = "labelWachttijd";
@@ -66,7 +66,7 @@ namespace WachtrijApp
             // labelWachttijdMelding
             // 
             this.labelWachttijdMelding.AutoSize = true;
-            this.labelWachttijdMelding.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachttijdMelding.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelWachttijdMelding.Location = new System.Drawing.Point(39, 214);
             this.labelWachttijdMelding.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
@@ -89,7 +89,7 @@ namespace WachtrijApp
             // labelKar2
             // 
             this.labelKar2.AutoSize = true;
-            this.labelKar2.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.labelKar2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F);
             this.labelKar2.Location = new System.Drawing.Point(39, 107);
             this.labelKar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar2.Name = "labelKar2";
@@ -100,7 +100,7 @@ namespace WachtrijApp
             // labelKar1
             // 
             this.labelKar1.AutoSize = true;
-            this.labelKar1.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.labelKar1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F);
             this.labelKar1.Location = new System.Drawing.Point(39, 84);
             this.labelKar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar1.Name = "labelKar1";
