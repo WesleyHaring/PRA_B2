@@ -98,7 +98,7 @@ namespace WachtrijApp
             Wachttijd += 4;
 
             return Wachttijd;
-<<<<<<< HEAD
+
 
             string node09 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor09").InnerText;
             if (node09 == "False")
@@ -136,8 +136,6 @@ namespace WachtrijApp
 
             return Wachttijd;
 
-=======
->>>>>>> parent of 82f8919 (sensor 9 t/m 12)
         }
 
         private void VerwerkAttractieStatusData()
@@ -179,6 +177,11 @@ namespace WachtrijApp
             if (StatusNr == "4")
             {
                 return "Komt binnen";
+            }
+
+            if (StatusNr == "5")
+            {
+                return "Onderhoud bezig.";
             }
 
             return "";
