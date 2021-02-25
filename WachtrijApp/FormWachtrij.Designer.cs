@@ -112,7 +112,7 @@ namespace WachtrijApp
             // labelKar3
             // 
             this.labelKar3.AutoSize = true;
-            this.labelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.labelKar3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F);
             this.labelKar3.Location = new System.Drawing.Point(39, 130);
             this.labelKar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar3.Name = "labelKar3";
