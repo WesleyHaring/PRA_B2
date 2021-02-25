@@ -185,7 +185,7 @@ namespace WachtrijApp
 
             if (StatusNr == "5")
             {
-                return "Onderhoud bezig.";
+                return "Onderhoud bezig";
             }
 
             return "";
