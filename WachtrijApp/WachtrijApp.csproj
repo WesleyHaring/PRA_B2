@@ -80,7 +80,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Bug.ico" />
+    <Content Include="Images\Hero05.ico" />
     <Content Include="Images\Bug.png" />
     <Content Include="Images\Hero01.png" />
     <Content Include="Images\Hero02.png" />

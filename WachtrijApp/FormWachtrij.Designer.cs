@@ -47,7 +47,7 @@ namespace WachtrijApp
             this.labelTitel.Location = new System.Drawing.Point(35, 22);
             this.labelTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitel.Name = "labelTitel";
-            this.labelTitel.Size = new System.Drawing.Size(191, 40);
+            this.labelTitel.Size = new System.Drawing.Size(209, 47);
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Debug Hero";
             this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
@@ -59,7 +59,7 @@ namespace WachtrijApp
             this.labelWachttijd.Location = new System.Drawing.Point(36, 183);
             this.labelWachttijd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijd.Name = "labelWachttijd";
-            this.labelWachttijd.Size = new System.Drawing.Size(127, 32);
+            this.labelWachttijd.Size = new System.Drawing.Size(150, 38);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
             // 
@@ -70,7 +70,7 @@ namespace WachtrijApp
             this.labelWachttijdMelding.Location = new System.Drawing.Point(39, 214);
             this.labelWachttijdMelding.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWachttijdMelding.Name = "labelWachttijdMelding";
-            this.labelWachttijdMelding.Size = new System.Drawing.Size(88, 23);
+            this.labelWachttijdMelding.Size = new System.Drawing.Size(97, 26);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
             // 
@@ -78,7 +78,7 @@ namespace WachtrijApp
             // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(224, 107);
+            this.AttractieLogo.Location = new System.Drawing.Point(244, 107);
             this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(147, 174);
@@ -93,7 +93,7 @@ namespace WachtrijApp
             this.labelKar2.Location = new System.Drawing.Point(39, 107);
             this.labelKar2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar2.Name = "labelKar2";
-            this.labelKar2.Size = new System.Drawing.Size(74, 23);
+            this.labelKar2.Size = new System.Drawing.Size(85, 26);
             this.labelKar2.TabIndex = 8;
             this.labelKar2.Text = "Kar 2: ...";
             // 
@@ -104,7 +104,7 @@ namespace WachtrijApp
             this.labelKar1.Location = new System.Drawing.Point(39, 84);
             this.labelKar1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar1.Name = "labelKar1";
-            this.labelKar1.Size = new System.Drawing.Size(74, 23);
+            this.labelKar1.Size = new System.Drawing.Size(82, 26);
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             // 
