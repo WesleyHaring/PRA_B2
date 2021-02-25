@@ -126,14 +126,7 @@ namespace WachtrijApp
 
             return Wachttijd;
 
-           string node12 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor12").InnerText;
-            if (node08 == "False")
-            {
-                return Wachttijd;
-            }
-            Wachttijd += 4;
-
-            return Wachttijd;
+           
 
         }
 
