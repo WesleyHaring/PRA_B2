@@ -116,7 +116,7 @@ namespace WachtrijApp
             this.labelKar3.Location = new System.Drawing.Point(39, 130);
             this.labelKar3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelKar3.Name = "labelKar3";
-            this.labelKar3.Size = new System.Drawing.Size(74, 23);
+            this.labelKar3.Size = new System.Drawing.Size(85, 26);
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
             // 
